@@ -39,7 +39,8 @@ public class Collision_Manager : MonoBehaviour {
         }
     }
 
-    public Dictionary<Collider, ColliderData> ColliderDic;  // 딕셔너리를 이용해 해당 무기의 콜라이더를 key로 해서 무기 콜라이더와 관련된 정보 리스트 클래스를 저장시킨다. 
+    // 딕셔너리를 이용해 해당 무기의 콜라이더를 key로 해서 무기 콜라이더와 관련된 정보 리스트 클래스를 저장시킨다.
+    public Dictionary<Collider, ColliderData> ColliderDic;   
         
     static public Collision_Manager GetInstance()
     {
