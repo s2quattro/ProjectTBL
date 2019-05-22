@@ -4957,7 +4957,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnNearPos: {fileID: 1868397548}
   spawnFarPos: {fileID: 1024051624}
-  _skillInfos: []
+  _skillInfos:
+  - skillIcon: {fileID: 21300000, guid: 4f9df37e2a573a64cbc944fe068893cb, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 53085f18b2c38eb4e8539c23811c3347, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: dbc021c87f35c8d45bf98ac669d91952, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 4cff4ef634be5d64e9dda2bee5118ed1, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 16a6a5271084d7742be0e0f1a9e217ef, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 8cc7ca0e29ced7b4f84e8c4ef7deb28b, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: e5f8e29c0eb39d74e9509b0469b5204c, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 676104ad271b0c241bee12c8409a1304, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 92b315788e6ebb34f90dddacbca17e68, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: d79036c8f3ba7ca45970d9530c4dca90, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: b9c61c6896eff5b43ae44d047f49b31d, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
+  - skillIcon: {fileID: 21300000, guid: 3f2c8d026ca336045a39ed53935bbcd3, type: 3}
+    skillImage: {fileID: 0}
+    isUsing: 0
+    comboType: 0
 --- !u!1 &205558331
 GameObject:
   m_ObjectHideFlags: 0
