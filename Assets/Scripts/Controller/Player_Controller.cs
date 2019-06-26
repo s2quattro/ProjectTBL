@@ -52,7 +52,7 @@ public class Player_Controller : Controller_Base
         public GameObject playerCamera;
         [Range(0f, 90f)] public float degreeLimitY = 20f;
         public Vector2 cameraSmoothing = new Vector2(5f, 5f);
-        public Vector2 cameraSensitivity = new Vector2(0.3f, 0.3f);
+        public Vector2 cameraSensitivity = new Vector2(1.5f, 1.5f);
 
         [HideInInspector] public Vector2 cameraDregrees;
         [HideInInspector] public Vector2 mouseInput;
@@ -327,14 +327,14 @@ public class Player_Controller : Controller_Base
         if (currentState == Constants.CurrentState.Jump)
         {
             _camera.mouseInput = Vector2.Scale(_camera.mouseInput, new Vector2(
-            _camera.cameraSensitivity.x * _character.alterSensitivity * _camera.cameraSmoothing.x,
-            _camera.cameraSensitivity.y * _character.alterSensitivity * _camera.cameraSmoothing.y));
+            _camera.cameraSensitivity.x * _character.alterSensitivity,
+            _camera.cameraSensitivity.y * _character.alterSensitivity));
         }
         else
         {
             _camera.mouseInput = Vector2.Scale(_camera.mouseInput, new Vector2(
-            _camera.cameraSensitivity.x * _camera.cameraSmoothing.x,
-            _camera.cameraSensitivity.y * _camera.cameraSmoothing.y));
+            _camera.cameraSensitivity.x,
+            _camera.cameraSensitivity.y));
         }
 
         // 인풋을 보간하여 부드러운 움직임을 구현

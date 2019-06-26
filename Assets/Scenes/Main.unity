@@ -34152,6 +34152,16 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 114302471946002364, guid: f3e1d7c69f6eda445a7f6829bab3527d,
+        type: 2}
+      propertyPath: _camera.cameraSensitivity.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114302471946002364, guid: f3e1d7c69f6eda445a7f6829bab3527d,
+        type: 2}
+      propertyPath: _camera.cameraSensitivity.y
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3e1d7c69f6eda445a7f6829bab3527d, type: 2}
   m_IsPrefabAsset: 0
